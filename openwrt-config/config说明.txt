@@ -1,0 +1,17 @@
+01.config
+hello default
+
+02.config
+x86_64
+
+03.config
+luci compat
+
+04
+luci zh-cn
+
+05
+dnsmasq-full
+
+06
+ssr-plus
