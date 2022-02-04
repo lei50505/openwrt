@@ -1,6 +1,10 @@
 Target System -> x86
 Subtarget -> x86_64
-
+---
+Target System -> MediaTek Ralink MIPS
+Subtarget -> MT7621 based boards
+Target Profile -> NETGEAR R6220
+---
 LuCI -> 1. Collections -> luci-ssl
 LuCI -> 2. Modules -> luci-compat
 LuCI -> 3. Applications -> luci-app-p910nd
@@ -15,6 +19,7 @@ Kernel modules -> USB Support -> kmod-usb-storage-extras
 Kernel modules -> USB Support -> kmod-usb-printer
 Kernel modules -> Filesystems -> kmod-fs-exfat
 Kernel modules -> Filesystems -> kmod-fs-ext4
+Kernel modules -> Filesystems -> kmod-fs-vfat
 Utilities -> Filesystems -> ntfs-3g
 Base system -> block-mount
 
