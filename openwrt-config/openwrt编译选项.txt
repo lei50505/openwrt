@@ -1,0 +1,3 @@
+Target System -> x86
+Subtarget -> x86_64
+LuCI -> 1. Collections -> luci-ssl
