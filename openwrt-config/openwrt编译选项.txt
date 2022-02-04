@@ -1,5 +1,6 @@
 Target System -> x86
 Subtarget -> x86_64
+Target Images -> Root filesystem partition size -> 104 -> 154
 ---
 Target System -> MediaTek Ralink MIPS
 Subtarget -> MT7621 based boards
