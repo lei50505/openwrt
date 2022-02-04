@@ -1,3 +1,21 @@
 Target System -> x86
 Subtarget -> x86_64
+
 LuCI -> 1. Collections -> luci-ssl
+LuCI -> 2. Modules -> luci-compat
+LuCI -> 3. Applications -> luci-app-p910nd
+LuCI -> 3. Applications -> luci-app-samba4
+Network -> SSH -> openssh-sftp-server
+
+Kernel modules -> USB Support -> kmod-usb3
+Kernel modules -> USB Support -> kmod-usb2
+Kernel modules -> USB Support -> kmod-usb-uhci
+Kernel modules -> USB Support -> kmod-usb-ohci
+Kernel modules -> USB Support -> kmod-usb-storage-extras
+Kernel modules -> USB Support -> kmod-usb-printer
+Base system -> block-mount
+Kernel modules -> Filesystems -> kmod-fs-exfat
+Kernel modules -> Filesystems -> kmod-fs-ext4
+Utilities -> Filesystems -> ntfs-3g
+
+
