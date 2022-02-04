@@ -1,0 +1,9 @@
+Target System -> x86
+Subtarget -> x86_64
+LuCI -> 1. Collections -> luci-ssl
+
+LuCI -> 2. Modules -> luci-compat
+Base system -> dnsmasq -> deselect
+Base system -> dnsmasq-full
+
+LuCI -> 3. Applications -> luci-app-passwall
