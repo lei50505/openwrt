@@ -13,9 +13,9 @@ Kernel modules -> USB Support -> kmod-usb-uhci
 Kernel modules -> USB Support -> kmod-usb-ohci
 Kernel modules -> USB Support -> kmod-usb-storage-extras
 Kernel modules -> USB Support -> kmod-usb-printer
-Base system -> block-mount
 Kernel modules -> Filesystems -> kmod-fs-exfat
 Kernel modules -> Filesystems -> kmod-fs-ext4
 Utilities -> Filesystems -> ntfs-3g
+Base system -> block-mount
 
 
