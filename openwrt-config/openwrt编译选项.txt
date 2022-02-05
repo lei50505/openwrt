@@ -1,6 +1,5 @@
 Target System -> x86
 Subtarget -> x86_64
-Target Images -> Root filesystem partition size -> 104 -> 154
 ---
 Target System -> MediaTek Ralink MIPS
 Subtarget -> MT7621 based boards
@@ -30,9 +29,11 @@ Utilities -> Filesystems -> antfs-mount
 Utilities -> Disc -> blkid
 Utilities -> Disc -> fdisk
 Utilities -> Disc -> lsblk
+Utilities -> iperf
 Utilities -> usbutils
 Base system -> blockd
 ---
+Target Images -> Root filesystem partition size -> 104 -> 154
 Base system -> dnsmasq -> deselect
 Base system -> dnsmasq-full
 LuCI -> 3. Applications -> luci-app-passwall
