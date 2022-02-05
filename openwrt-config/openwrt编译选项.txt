@@ -14,8 +14,8 @@ Network -> SSH -> openssh-sftp-server
 Network -> samba4-utils
 Kernel modules -> USB Support -> kmod-usb-ohci
 Kernel modules -> USB Support -> kmod-usb-printer
-Kernel modules -> USB Support -> kmod-usb-uhci
 Kernel modules -> USB Support -> kmod-usb-storage-extras
+Kernel modules -> USB Support -> kmod-usb-uhci
 Kernel modules -> USB Support -> kmod-usb2
 Kernel modules -> USB Support -> kmod-usb3
 Kernel modules -> Filesystems -> kmod-fs-antfs
@@ -28,8 +28,8 @@ Kernel modules -> Native Language Support -> kmod-nls-iso8859-1
 Kernel modules -> Native Language Support -> kmod-nls-utf8
 Utilities -> Filesystems -> antfs-mount
 Utilities -> Disc -> blkid
-Utilities -> Disc -> lsblk
 Utilities -> Disc -> fdisk
+Utilities -> Disc -> lsblk
 Utilities -> usbutils
 Base system -> blockd
 ---
