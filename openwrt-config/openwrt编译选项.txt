@@ -9,18 +9,33 @@ LuCI -> 1. Collections -> luci-ssl
 LuCI -> 2. Modules -> luci-compat
 LuCI -> 3. Applications -> luci-app-p910nd
 LuCI -> 3. Applications -> luci-app-samba4
+LuCI -> 3. Applications -> luci-app-ttyd
 Network -> SSH -> openssh-sftp-server
-
-Kernel modules -> USB Support -> kmod-usb3
-Kernel modules -> USB Support -> kmod-usb2
-Kernel modules -> USB Support -> kmod-usb-uhci
+Network -> ethtool
+Network -> iperf3
+Network -> samba4-utils
 Kernel modules -> USB Support -> kmod-usb-ohci
-Kernel modules -> USB Support -> kmod-usb-storage-extras
 Kernel modules -> USB Support -> kmod-usb-printer
+Kernel modules -> USB Support -> kmod-usb-storage-extras
+Kernel modules -> USB Support -> kmod-usb-uhci
+Kernel modules -> USB Support -> kmod-usb2
+Kernel modules -> USB Support -> kmod-usb3
+Kernel modules -> Filesystems -> kmod-fs-antfs
 Kernel modules -> Filesystems -> kmod-fs-exfat
 Kernel modules -> Filesystems -> kmod-fs-ext4
 Kernel modules -> Filesystems -> kmod-fs-vfat
-Utilities -> Filesystems -> ntfs-3g
-Base system -> block-mount
-
-
+Kernel modules —> Block Devices —> kmod-scsi-core
+Kernel modules -> Native Language Support -> kmod-nls-cp437
+Kernel modules -> Native Language Support -> kmod-nls-iso8859-1
+Kernel modules -> Native Language Support -> kmod-nls-utf8
+Utilities -> Filesystems -> antfs-mount
+Utilities -> Disc -> blkid
+Utilities -> Disc -> fdisk
+Utilities -> Disc -> lsblk
+Utilities -> usbutils
+Base system -> blockd
+---
+Target Images -> Root filesystem partition size -> 104 -> 154
+Base system -> dnsmasq -> deselect
+Base system -> dnsmasq-full
+LuCI -> 3. Applications -> luci-app-passwall
