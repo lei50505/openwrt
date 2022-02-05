@@ -9,7 +9,9 @@ LuCI -> 1. Collections -> luci-ssl
 LuCI -> 2. Modules -> luci-compat
 LuCI -> 3. Applications -> luci-app-p910nd
 LuCI -> 3. Applications -> luci-app-samba4
+LuCI -> 3. Applications -> luci-app-ttyd
 Network -> SSH -> openssh-sftp-server
+Network -> ethtool
 Network -> samba4-utils
 Kernel modules -> USB Support -> kmod-usb-ohci
 Kernel modules -> USB Support -> kmod-usb-printer
@@ -29,7 +31,7 @@ Utilities -> Filesystems -> antfs-mount
 Utilities -> Disc -> blkid
 Utilities -> Disc -> fdisk
 Utilities -> Disc -> lsblk
-Utilities -> iperf
+Utilities -> iperf3
 Utilities -> usbutils
 Base system -> blockd
 ---
