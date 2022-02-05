@@ -8,16 +8,16 @@ Target Profile -> NETGEAR R6220
 ---
 LuCI -> 1. Collections -> luci-ssl
 LuCI -> 2. Modules -> luci-compat
-LuCI -> 3. Applications -> luci-app-ksmbd
 LuCI -> 3. Applications -> luci-app-p910nd
+LuCI -> 3. Applications -> luci-app-samba4
 Network -> SSH -> openssh-sftp-server
-Network -> Filesystem -> ksmbd-utils -> Add ksmbd.addshare util
-Kernel modules -> USB Support -> kmod-usb3
-Kernel modules -> USB Support -> kmod-usb2
-Kernel modules -> USB Support -> kmod-usb-uhci
+Network -> samba4-utils
 Kernel modules -> USB Support -> kmod-usb-ohci
-Kernel modules -> USB Support -> kmod-usb-storage-extras
 Kernel modules -> USB Support -> kmod-usb-printer
+Kernel modules -> USB Support -> kmod-usb-uhci
+Kernel modules -> USB Support -> kmod-usb-storage-extras
+Kernel modules -> USB Support -> kmod-usb2
+Kernel modules -> USB Support -> kmod-usb3
 Kernel modules -> Filesystems -> kmod-fs-antfs
 Kernel modules -> Filesystems -> kmod-fs-exfat
 Kernel modules -> Filesystems -> kmod-fs-ext4
